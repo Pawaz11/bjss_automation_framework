@@ -1,3 +1,4 @@
+@test1
 Feature: The test of the red button should change when clicked
 
  Scenario: As a user, I should be able to click the button and the text should change
