@@ -7,10 +7,11 @@ When("I click Challenging DOM") do
 end
 
 When("I click the red button") do
-  challenging_dom_page.visit_dom_page
+  sleep 3
   challenging_dom_page.click_red_button
 end
 
 Then("the button text should change") do
-  pending
+  red_button = challenging_dom_page.red_button_text 
+  expect(challenging_dom_page.check_text red_button).to eq false
 end
