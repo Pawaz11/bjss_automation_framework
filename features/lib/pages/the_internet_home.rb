@@ -21,7 +21,7 @@ class TheInternetHome
   def click_start
     within "#start" do
     click_on "Start"
-  end
+    end
   end
 
   def hello_world

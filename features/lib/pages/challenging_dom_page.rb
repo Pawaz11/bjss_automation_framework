@@ -7,7 +7,19 @@ class ChallengingDOMPage
   end
 
   def click_red_button
-    click_link("c4ff6df0-8e07-0136-5be7-7e5863234f45")
+    find('a.alert').click
   end
-  
+
+  def red_button_text
+    red_button = find('a.alert').text
+  end
+
+  def check_text red_button
+    if red_button
+      false
+    else
+      true
+    end
+  end
+
 end
