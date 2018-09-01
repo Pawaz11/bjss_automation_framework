@@ -10,5 +10,4 @@ end
 Then("hello world should be rendered") do
   sleep 5
   the_internet_home.hello_world
-
 end
