@@ -23,5 +23,5 @@ To run the tests, you need to download/clone the repo and run ```bundle install`
 *Asos Framework* - I have created a web automation framework for the Asos website which created a few simple tests like searching for a product, adding it to the basket and checking it has been added to the basket.
 <https://github.com/Pawaz11/Asos_BDD_automation_testing>
 
-*hangman* - as part of training, I created a web-based version of hangman. It uses the HTML, CSS and Javascript as core technologies. This project was created useing the agile approach where I had 2 sprints split over the week.
+*hangman* - as part of training, I created a web-based version of hangman. It uses the HTML, CSS and Javascript as core technologies. This project was created using the agile approach where I had 2 sprints split over the week.
 <https://pawaz11.github.io/hangman/>
